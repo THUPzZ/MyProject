@@ -1,10 +1,15 @@
-import React from 'react'
-export default () => (
-  <div className="has-text-centered">
-    <section className="hero is-danger">
-      <div className="container">
-        <h1 className="title">post</h1>
+import React,{Component} from 'react'
+class test extends Component {
+  componentDidMount(){
+    document.title = "test";
+  }
+  render() {
+    return (
+      <div>
+        <h1>404 : Not Found :(</h1>
       </div>
-    </section>
-  </div>
-)
+    )
+  }
+}
+
+export default test;
